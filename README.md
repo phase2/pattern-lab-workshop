@@ -1,4 +1,4 @@
 demo-workshopper
 ================
 
-An example Node.js workshopper.
+An example Node.js workshopper lesson.
