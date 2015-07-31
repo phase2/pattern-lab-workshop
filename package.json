@@ -1,12 +1,12 @@
 {
-  "name": "demo-workshopper",
-  "version": "1.0.4",
+  "name": "pattern-lab-workshop",
+  "version": "1.0.0",
   "repository": {
     "type": "git",
-    "url": "git://github.com/linclark/demo-workshopper"
+    "url": "git://github.com:phase2/pattern-lab-workshop.git"
   },
   "license": "BSD-3-Clause",
-  "bin": "./demo-workshopper.js",
+  "bin": "./pattern-lab.js",
   "dependencies": {
     "workshopper": "1.x",
     "workshopper-exercise": "^0.2.2",
