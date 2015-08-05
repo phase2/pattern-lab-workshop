@@ -6,6 +6,7 @@ var filecheck = require('workshopper-exercise/filecheck');
 var execute = require('workshopper-exercise/execute');
 var comparestdout = require('workshopper-exercise/comparestdout');
 var fs = require('fs');
+var path = require('path');
 
 // checks that the submission file actually exists
 exercise = filecheck(exercise);
@@ -17,7 +18,7 @@ exercise = execute(exercise);
 // exercise = comparestdout(exercise);
 
 // checks if a file exists, named a certain way, containing the mustache we want
-fs.readFile('solution/atoms/01-tutorial-button.mustache', 'utf8', function (err,data) {
+fs.readFile(path.join(process.cwd(), 'exercises/create_an_atom/solution/atoms/01-tutorial-button.mustache'), 'utf8', function (err,data) {
   if (err) {
     return console.log(err);
   }
