@@ -14,10 +14,10 @@ exercise = filecheck(exercise);
 exercise = execute(exercise);
 
 // compare stdout of solution and submission
-exercise = comparestdout(exercise);
+// exercise = comparestdout(exercise);
 
 // checks if a file exists, named a certain way, containing the mustache we want
-fs.readFile('/atoms/01-tutorial-button.mustache', 'utf8', function (err,data) {
+fs.readFile('solution/atoms/01-tutorial-button.mustache', 'utf8', function (err,data) {
   if (err) {
     return console.log(err);
   }
