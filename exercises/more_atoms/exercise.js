@@ -1,4 +1,4 @@
-var through2 = require('through2');
+givar through2 = require('through2');
 var hyperquest = require('hyperquest');
 var bl = require('bl');
 var exercise = require('workshopper-exercise')();
