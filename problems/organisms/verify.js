@@ -3,7 +3,7 @@
 var exec = require('child_process').exec;
 var fs = require('fs');
 var path = require('path');
-var filename = "02-tutorial-image.mustache";
+var filename = "01-product-grid.mustache";
 
 //check the directory exists
 //check the file exists
@@ -12,10 +12,10 @@ var filename = "02-tutorial-image.mustache";
 findFile();
 
 function findFile() {
-  if (process.cwd().match("atoms")) {
+  if (process.cwd().match("organisms")) {
     check(process.cwd())
   } else {
-    check(path.join(process.cwd(), "/atoms/"))
+    check(path.join(process.cwd(), "/organisms/"))
   }
 
   function check(userspath) {
@@ -23,20 +23,20 @@ function findFile() {
       if (err) return console.log(err);
       var allFiles = files.join();
       if (allFiles.match(filename)) {
-        console.log("File in atoms folder!");
+        console.log("File in organisms folder!");
         checkFile();
       }
-      else console.log("File NOT in atoms folder!");
+      else console.log("File NOT in organisms folder!");
     })
   }
 }
 
 function checkFile() {
-  fs.readFile(path.join(process.cwd(), "/atoms/" + filename), 'utf8', function (err,data) {
+  fs.readFile(path.join(process.cwd(), "/organisms/" + filename), 'utf8', function (err,data) {
     if (err) {
       console.log("Try running the verify command from the top-level folder of this project.");
       return console.log(err);
     }
-    else console.log(data);
+    else console.log(data).trim();
   });
 }
