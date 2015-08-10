@@ -10,3 +10,9 @@ server.route({
     }
 });
 server.start();
+
+
+// var Filereader = require('Filereader');
+
+// read existing atom.mustache
+// spit out contents to stdout

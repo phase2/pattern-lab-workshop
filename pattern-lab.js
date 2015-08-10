@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-const workshopper = require('workshopper'),
+const workshopper = require('workshopper-jlord'),
       path        = require('path')
 
 function fpath (f) {
@@ -12,6 +12,9 @@ workshopper({
     title       : 'Pattern Lab Workshop',
     subtitle    : 'Learn how Pattern Lab works',
     appDir      : __dirname,
-    menuItems   : [],
+    menu: {
+        fg: /^win/.test(process.platform) ? 'white' : 231,
+        bg: /^win/.test(process.platform) ? 'blue'  : 33
+    },
     exerciseDir : fpath('./exercises/')
-})
+}).init()

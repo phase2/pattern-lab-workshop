@@ -8,14 +8,15 @@
   "license": "BSD-3-Clause",
   "bin": "./pattern-lab.js",
   "dependencies": {
-    "workshopper": "1.x",
-    "workshopper-exercise": "^0.2.2",
-    "workshopper-wrappedexec": "^0.1.1",
-    "workshopper-boilerplate": "0.0.1",
-    "hyperquest": "0.1.x",
-    "hapi": "6.x.x",
-    "colors-tmpl": "^1.0.0",
-    "through2": "^0.4.1",
-    "bl": "^0.8.0"
+    "concat-stream": "~1.2.1",
+    "ecstatic": "^0.5.4",
+    "github-oauth": "0.0.4",
+    "glob": "^3.2.11",
+    "handlebars": "^2.0.0-alpha.4",
+    "marked": "^0.3.2",
+    "request": "~2.30.0",
+    "workshopper-jlord": "^0.0.6",
+    "cheerio": "~0.17.0"
   }
 }
+
