@@ -15,6 +15,5 @@ workshopper({
     menu: {
         fg: /^win/.test(process.platform) ? 'white' : 231,
         bg: /^win/.test(process.platform) ? 'blue'  : 33
-    },
-    exerciseDir : fpath('./exercises/')
+    }
 }).init()

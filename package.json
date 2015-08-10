@@ -10,7 +10,6 @@
   "dependencies": {
     "concat-stream": "~1.2.1",
     "ecstatic": "^0.5.4",
-    "github-oauth": "0.0.4",
     "glob": "^3.2.11",
     "handlebars": "^2.0.0-alpha.4",
     "marked": "^0.3.2",

@@ -1,6 +1,3 @@
-blah blah blah this is a test!!
+For this first test, make a file called: `test.mustache` 
 
-create a thing like this:
-
-<div>hello!</div>
-
+containing: `<div>hello!</div>`
