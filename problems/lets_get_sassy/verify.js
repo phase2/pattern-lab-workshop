@@ -37,6 +37,10 @@ function checkFile() {
       console.log("Try running the verify command from the top-level folder of this project.");
       return console.log(err);
     }
-    else console.log(data.trim());
+    else {
+      if ((data.indexOf('btn') > -1) || (data.indexOf('button') > -1)) console.log("Styling the button!");
+      if (data.indexOf('color: red') > -1) console.log("The color is red!");
+      if (data.indexOf('text-align: center') > -1) console.log("The text is center-aligned!");
+    }
   });
 }
