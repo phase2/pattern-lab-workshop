@@ -1,8 +1,7 @@
 # Pattern Lab Workshopper
 
 ## Code Example
-<screenshot of the terminal menu here>
-
+![terminal menu](assets/terminal-menu.png)
 Show what the library does as concisely as possible, developers should be able to figure out **how** your project solves their problem by looking at the code example. Make sure the API you are showing off is obvious, and that your code is short and concise.
 
 ## Motivation
@@ -11,19 +10,19 @@ This workshopper aims to explain the concepts behind Pattern Lab. [http://patter
 Pattern Lab is wicked cool and you should use it! 
 
 ## Installation
-this will change once it's published to npm. 
-once that happens installation will probably be `npm install -g pattern-lab-workshop`
+This will change once it's published to npm. 
+Once that happens installation will probably be `npm install -g pattern-lab-workshop`
 
-but until then:
+But until then:
 
 git clone the repo
-inside that folder type
+Inside that folder type
 `npm install`
 `npm link`
 
-make a new folder somewhere else to run the workshop in
+Make a new folder somewhere else to run the workshop in.
 
-cd into that folder and type "pattern-lab-workshop" in the terminal
+cd into that folder and type `pattern-lab-workshop` in the terminal.
 
 ## API Reference
 Pattern Lab docs: [http://patternlab.io/docs/index.html]
@@ -33,8 +32,7 @@ git-it (the workshopper this is based off of): [https://github.com/jlord/git-it]
 ## Tests
 
 `pattern-lab-workshop` to open the menu
-`pattern-lab-workshop run`
-`pattern-lab-workshop verify`
+`pattern-lab-workshop verify` to test your submission
 
 ## Contributors
 
