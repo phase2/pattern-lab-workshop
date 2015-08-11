@@ -2,7 +2,7 @@
 
 ![terminal menu](assets/terminal-menu.png)
 
-This workshopper aims to explain the concepts behind Pattern Lab. [http://patternlab.io/docs/index.html]
+This workshopper aims to explain the concepts behind [Pattern Lab](http://patternlab.io/docs/index.html).
 Pattern Lab is wicked cool and you should use it! 
 
 ## Installation
@@ -21,9 +21,9 @@ Make a new folder somewhere else to run the workshop in.
 cd into that folder and type `pattern-lab-workshop` in the terminal.
 
 ## API Reference
-Pattern Lab docs: [http://patternlab.io/docs/index.html]
-Mustache docs: [http://mustache.github.io/mustache.5.html]
-git-it (the workshopper this is based off of): [https://github.com/jlord/git-it]
+[Pattern Lab docs:](http://patternlab.io/docs/index.html)
+[Mustache docs:](http://mustache.github.io/mustache.5.html)
+[git-it:](https://github.com/jlord/git-it)(the workshopper this is based off of)
 
 ## Tests
 
