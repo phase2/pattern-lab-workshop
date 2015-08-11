@@ -1,6 +1,6 @@
-console.log("File in organisms folder!");
+console.log("File in templates folder!");
 console.log('<div>');
-console.log('{{> molecules-01-item }}');
-console.log('{{> molecules-01-item }}');
-console.log('{{> molecules-01-item }}');
+console.log('{{> organisms-01-product-grid }}');
+console.log('{{> organisms-01-product-grid }}');
+console.log('{{> organisms-01-product-grid }}');
 console.log('</div>');
