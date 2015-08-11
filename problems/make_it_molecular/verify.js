@@ -37,6 +37,10 @@ function checkFile() {
       console.log("Try running the verify command from the top-level folder of this project.");
       return console.log(err);
     }
-    else console.log(data.trim());
+    else {
+      if (data.indexOf('{{> atoms-01-tutorial-button }}') > -1) console.log('button partial is present!');
+      if (data.indexOf('{{> atoms-02-tutorial-image }}') > -1) console.log('image partial is present!');
+      if (data.indexOf('<div>') > -1) console.log('there\'s a div!');
+    }
   });
 }

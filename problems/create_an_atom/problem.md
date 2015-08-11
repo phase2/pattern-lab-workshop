@@ -6,7 +6,11 @@ Pattern Lab is a collection of tools to help you create atomic design systems.
 .json files provide data
 .scss files provide styling
 
-This workshopper will show you how to put them all together to create static sites.
+This workshopper will show you how to put them all together to create static sites (and so much more!).
+
+For more information about Pattern Lab, visit: `http://patternlab.io/`
+
+---
 
 If you haven't made a new folder for this workshop, do so now.
 

@@ -1,7 +1,10 @@
-Atoms and molecules, oh my!
-Just like chemistry, atoms in Pattern Lab come together to form molecules.
-Because we're using mustache files, 
-we can easily combine disparate parts to create a cohesive whole.
+In interfaces, molecules are groups of elements that function together as a unit. 
+For example, a form label, search input, and button atom can combine them together to form a search form molecule.
+
+Building up from atoms to molecules encourages a “do one thing and do it well” mentality, 
+and encourages creating reusable interface patterns.
+
+---
 
 For the purposes of this lesson, we will be creating an item molecule.
 This molecule will consist of a div that contains two mustache partials, 

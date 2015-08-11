@@ -42,7 +42,5 @@ function checkFile() {
       if (data.indexOf('height="200px"') > -1) console.log('height is 200px!');
       if (data.indexOf('width="200px"') > -1) console.log('width is 200px!');
     }
-
-    // console.log(data.trim());
   });
 }
