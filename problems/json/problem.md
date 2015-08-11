@@ -1,7 +1,3 @@
-.mustache files provide the structure
-.json files provide the data
-.scss files provide the styling
-
 We have all these mustache files, but no data for them.
 So it's time to make our global json file!
 

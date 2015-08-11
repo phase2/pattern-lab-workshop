@@ -1,26 +1,40 @@
-## Synopsis
-
-This is the Pattern Lab workshopper module
+# Pattern Lab Workshopper
 
 ## Code Example
+<screenshot of the terminal menu here>
 
 Show what the library does as concisely as possible, developers should be able to figure out **how** your project solves their problem by looking at the code example. Make sure the API you are showing off is obvious, and that your code is short and concise.
 
 ## Motivation
 
-A short description of the motivation behind the creation and maintenance of the project. This should explain **why** the project exists.
+This workshopper aims to explain the concepts behind Pattern Lab. [http://patternlab.io/docs/index.html]
+Pattern Lab is wicked cool and you should use it! 
 
 ## Installation
+this will change once it's published to npm. 
+once that happens installation will probably be `npm install -g pattern-lab-workshop`
 
-Provide code examples and explanations of how to get the project.
+but until then:
+
+git clone the repo
+inside that folder type
+`npm install`
+`npm link`
+
+make a new folder somewhere else to run the workshop in
+
+cd into that folder and type "pattern-lab-workshop" in the terminal
 
 ## API Reference
-
-Depending on the size of the project, if it is small and simple enough the reference docs can be added to the README. For medium size to larger projects it is important to at least provide a link to where the API reference docs live.
+Pattern Lab docs: [http://patternlab.io/docs/index.html]
+Mustache docs: [http://mustache.github.io/mustache.5.html]
+git-it (the workshopper this is based off of): [https://github.com/jlord/git-it]
 
 ## Tests
 
-Describe and show how to run the tests with code examples.
+`pattern-lab-workshop` to open the menu
+`pattern-lab-workshop run`
+`pattern-lab-workshop verify`
 
 ## Contributors
 
