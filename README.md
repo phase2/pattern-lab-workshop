@@ -1,10 +1,6 @@
 # Pattern Lab Workshopper
 
-## Code Example
 ![terminal menu](assets/terminal-menu.png)
-Show what the library does as concisely as possible, developers should be able to figure out **how** your project solves their problem by looking at the code example. Make sure the API you are showing off is obvious, and that your code is short and concise.
-
-## Motivation
 
 This workshopper aims to explain the concepts behind Pattern Lab. [http://patternlab.io/docs/index.html]
 Pattern Lab is wicked cool and you should use it! 
