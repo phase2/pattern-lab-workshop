@@ -1,2 +1,4 @@
 console.log("File in atoms folder!");
-console.log('<img src="/" height="200px" width="200px"/>');
+console.log('src is /!');
+console.log('height is 200px!');
+console.log('width is 200px!');

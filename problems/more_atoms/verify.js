@@ -37,6 +37,12 @@ function checkFile() {
       console.log("Try running the verify command from the top-level folder of this project.");
       return console.log(err);
     }
-    else console.log(data.trim());
+    else {
+      if (data.indexOf('/') > -1) console.log('src is /!');
+      if (data.indexOf('height="200px"') > -1) console.log('height is 200px!');
+      if (data.indexOf('width="200px"') > -1) console.log('width is 200px!');
+    }
+
+    // console.log(data.trim());
   });
 }
