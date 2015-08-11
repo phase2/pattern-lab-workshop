@@ -64,6 +64,6 @@ function checkFile() {
       console.log("Try running the verify command from the top-level folder of this project.");
       return console.log(err);
     }
-    else console.log(data);
+    else console.log(data.trim());
   });
 }
