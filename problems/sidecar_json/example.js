@@ -1,0 +1,3 @@
+{
+  "btnText": "Buy me!"
+}

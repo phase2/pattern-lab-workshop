@@ -1,0 +1,18 @@
+line 322
+
+    , example = fs.readdirSync(dir).filter(function (file) {
+        return (/^example.*\.js/).test(file)
+      }).map(function (file) {
+        return {
+          name: file
+          , content: fs.readFileSync(path.join(dir, file), 'utf8')
+            .toString()
+            .replace(/^/gm, '  ')
+        }
+      })
+
+  console.log('\nHere\'s what the official solution is if you want to compare notes:\n')
+  console.log(example)
+
+
+comment stuff out inside printText() on line 417
