@@ -15,4 +15,4 @@ line 322
   console.log(example)
 
 
-comment stuff out inside printText() on line 417
+comment everything out inside of the last printText() except for lines 423 & 424
