@@ -16,3 +16,13 @@ line 322
 
 
 comment everything out inside of the last printText() except for lines 423 & 424
+
+
+
+
+***** updates for the project:
+
+- lesson 1:
+  "inside of the atoms folder, make the file:"
+
+  "if you've created this folder at X, please run this from /

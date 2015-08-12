@@ -16,6 +16,10 @@ If you haven't made a new folder for this workshop, do so now.
 
 Inside of that folder, make another folder named: `atoms`
 
-Make a file called: `01-tutorial-button.mustache` 
+Inside of the atoms folder, make a file called: `01-tutorial-button.mustache` 
 
 containing: `<button>{{ btnText }}</button>`
+
+Your file structure should look something like this: `thisproject/atoms/01-tutorial-button.mustache`
+
+cd to the top-level folder (`thisproject/`) to run the verify & menu commands for all lessons.
