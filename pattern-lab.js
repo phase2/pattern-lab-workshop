@@ -2,6 +2,7 @@
 
 const workshopper = require('workshopper-jlord'),
       path        = require('path')
+      strings     = require('./strings')
 
 function fpath (f) {
     return path.join(__dirname, f)
@@ -15,5 +16,6 @@ workshopper({
     menu: {
         fg: /^win/.test(process.platform) ? 'white' : 231,
         bg: /^win/.test(process.platform) ? 'blue'  : 33
-    }
+    },
+    strings: strings
 }).init()
