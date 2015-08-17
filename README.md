@@ -25,11 +25,13 @@ Make a new folder somewhere else to run the workshop in.
 cd into that folder and type `pattern-lab-workshop` in the terminal.
 
 ## API Reference
-[Pattern Lab docs:](http://patternlab.io/docs/index.html)
+[Pattern Lab docs](http://patternlab.io/docs/index.html)
 
-[Mustache docs:](http://mustache.github.io/mustache.5.html)
+[Mustache docs](http://mustache.github.io/mustache.5.html)
 
-[git-it:](https://github.com/jlord/git-it)
+[git-it](https://github.com/jlord/git-it) (the workshopper that this was based off of)
+
+[nodeschool](https://nodeschool.io)
 
 ## Tests
 
@@ -38,8 +40,6 @@ cd into that folder and type `pattern-lab-workshop` in the terminal.
 `pattern-lab-workshop verify` to test your submission
 
 ## Contributors
-
-Let people know how they can dive into the project, include important links to things like issue trackers, irc, twitter accounts if applicable.
 
 ## License
 
