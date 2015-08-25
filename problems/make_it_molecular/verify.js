@@ -20,13 +20,17 @@ function findFile() {
 
   function check(userspath) {
     fs.readdir(userspath, function(err, files) {
-      if (err) return console.log(err);
+      if (err) {
+        return console.log(err);
+      }
       var allFiles = files.join();
       if (allFiles.match(filename)) {
         console.log("File in molecules folder!");
         checkFile();
       }
-      else console.log("File NOT in molecules folder!");
+      else {
+        console.log("File NOT in molecules folder!");
+      }
     })
   }
 }
@@ -38,9 +42,15 @@ function checkFile() {
       return console.log(err);
     }
     else {
-      if (data.indexOf('{{> atoms-01-tutorial-button }}') > -1) console.log('button partial is present!');
-      if (data.indexOf('{{> atoms-02-tutorial-image }}') > -1) console.log('image partial is present!');
-      if (data.indexOf('<div>') > -1) console.log('there\'s a div!');
+      if (data.indexOf('{{> atoms-01-tutorial-button }}') > -1) {
+        console.log('button partial is present!');
+      }
+      if (data.indexOf('{{> atoms-02-tutorial-image }}') > -1) {
+        console.log('image partial is present!');
+      }
+      if (data.indexOf('<div>') > -1) {
+        console.log('there\'s a div!');
+      }
     }
   });
 }

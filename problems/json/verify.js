@@ -20,13 +20,17 @@ function findFile() {
 
   function check(userspath) {
     fs.readdir(userspath, function(err, files) {
-      if (err) return console.log(err);
+      if (err) {
+        return console.log(err);
+      }
       var allFiles = files.join();
       if (allFiles.match(filename)) {
         console.log("File in data folder!");
         checkFile();
       }
-      else console.log("File NOT in data folder!");
+      else {
+        console.log("File NOT in data folder!");
+      }
     })
   }
 }
@@ -37,6 +41,8 @@ function checkFile() {
       console.log("Try running the verify command from the top-level folder of this project.");
       return console.log(err);
     }
-    else console.log(data.trim());
+    else {
+      console.log(data.trim());
+    }
   });
 }

@@ -20,13 +20,17 @@ function findFile() {
 
   function check(userspath) {
     fs.readdir(userspath, function(err, files) {
-      if (err) return console.log(err);
+      if (err) {
+        return console.log(err);
+      }
       var allFiles = files.join();
       if (allFiles.match(filename)) {
         console.log("File in atoms folder!");
         checkFile();
       }
-      else console.log("File NOT in atoms folder!");
+      else {
+        console.log("File NOT in atoms folder!");
+      }
     })
   }
 }
@@ -38,9 +42,15 @@ function checkFile() {
       return console.log(err);
     }
     else {
-      if ((data.indexOf('btn') > -1) || (data.indexOf('button') > -1)) console.log("Styling the button!");
-      if (data.indexOf('color: red') > -1) console.log("The color is red!");
-      if (data.indexOf('text-align: center') > -1) console.log("The text is center-aligned!");
+      if ((data.indexOf('btn') > -1) || (data.indexOf('button') > -1)) {
+        console.log("Styling the button!");
+      }
+      if (data.indexOf('color: red') > -1) {
+        console.log("The color is red!");
+      }
+      if (data.indexOf('text-align: center') > -1) {
+        console.log("The text is center-aligned!");
+      }
     }
   });
 }
