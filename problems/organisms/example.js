@@ -1,5 +1,5 @@
 <div>
-  {{> molecules-01-item }}
-  {{> molecules-01-item }}
-  {{> molecules-01-item }}
+  {{> molecules-item }}
+  {{> molecules-item }}
+  {{> molecules-item }}
 </div>

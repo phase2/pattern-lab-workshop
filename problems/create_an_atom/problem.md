@@ -2,9 +2,9 @@ What is Pattern Lab?
 
 Pattern Lab is a collection of tools to help you create atomic design systems.
 
-.mustache files provide structure
-.json files provide data
-.scss files provide styling
+** .mustache files provide the structure.
+** .json files serve the data.
+** .scss and .js files add style and functionality.
 
 This workshopper will show you how to put them all together to create static sites (and so much more!).
 

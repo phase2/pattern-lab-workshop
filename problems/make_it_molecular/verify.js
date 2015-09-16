@@ -42,14 +42,14 @@ function checkFile() {
       return console.log(err);
     }
     else {
-      if (data.indexOf('{{> atoms-01-tutorial-button }}') > -1) {
-        console.log('button partial is present!');
-      }
-      if (data.indexOf('{{> atoms-02-tutorial-image }}') > -1) {
-        console.log('image partial is present!');
-      }
       if (data.indexOf('<div>') > -1) {
         console.log('there\'s a div!');
+      }
+      if (data.indexOf('{{> atoms-button }}') > -1) {
+        console.log('button partial is present!');
+      }
+      if (data.indexOf('{{> atoms-image }}') > -1) {
+        console.log('image partial is present!');
       }
     }
   });

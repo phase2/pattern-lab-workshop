@@ -42,13 +42,13 @@ function checkFile() {
       return console.log(err);
     }
     else {
-      if (data.indexOf('/') > -1) {
+      if (data.indexOf('src="/"') > -1) {
         console.log('src is /!');
       }
-      if (data.indexOf('height="200px"') > -1) {
+      if (data.indexOf('height="200') > -1) {
         console.log('height is 200px!');
       }
-      if (data.indexOf('width="200px"') > -1) {
+      if (data.indexOf('width="200') > -1) {
         console.log('width is 200px!');
       }
     }

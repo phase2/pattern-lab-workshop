@@ -11,9 +11,10 @@ but they provide a useful reference and allow you to see all your global styles 
 
 ---
 
-Follow the naming convention from before (`02-tutorial-image`),
-but this time our atom will be an image with a height and width of 200px.
+This atom will be named `02-tutorial-image.mustache`
 
-Be sure to use the `.mustache` extension!
+Make sure to place it in the atoms folder that you created last lesson.
 
-The source for our image can just be `/` for now.
+Give it a height and width of 200px. 
+
+The img src isn't important for the purposes of this lesson, so just set it to `/`

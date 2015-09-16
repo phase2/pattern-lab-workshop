@@ -16,5 +16,8 @@ organism!
 
 This organism will consist of a div that contains three item molecules. 
 
-Remember to follow the naming conventions & don't forget to make a new 
-folder for your organism!
+Create a new folder for your organisms to live in: `organisms`
+
+Create a file called: `01-product-grid.mustache`
+
+This organism needs a wrapper div and 3 mustache partials, all referring to the item molecule we previously created.

@@ -1,6 +1,5 @@
 console.log("File in organisms folder!");
-console.log('<div>');
-console.log('{{> molecules-01-item }}');
-console.log('{{> molecules-01-item }}');
-console.log('{{> molecules-01-item }}');
-console.log('</div>');
+console.log('there\'s a div!');
+console.log('One item molecule!');
+console.log('Two item molecules!');
+console.log('Three item molecules!');

@@ -42,7 +42,18 @@ function checkFile() {
       return console.log(err);
     }
     else {
-      console.log(data.trim());
+      if (data.indexOf('<div>') > -1) {
+        console.log('there\'s a div!');
+      }
+      if (data.indexOf('{{> molecules-item }}') > -1) {
+        console.log('One item molecule!');
+      }
+      if (data.indexOf('{{> molecules-item }}') > -1) {
+        console.log('Two item molecules!');
+      }
+      if (data.indexOf('{{> molecules-item }}') > -1) {
+        console.log('Three item molecules!');
+      }
     }
   });
 }
