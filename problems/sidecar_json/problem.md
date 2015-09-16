@@ -11,3 +11,10 @@ What we really want it to say on this page is "Buy me!"
 
 So we'll need a json file to overwrite for this specific instance. 
 Put it in the pages folder, named the same as the page you want to accompany, but with a json extension.
+
+So our file will be named: `01-products.json` inside of the `pages` directory and it will contain this:
+`
+{
+  "btnText": "Buy me!"
+}
+`

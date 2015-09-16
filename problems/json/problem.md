@@ -8,11 +8,16 @@ when we put {{ btnText }} as its text?
 You bet mustache can serve up some JSON for what that will say.
 
 First things first, we'll need a directory for our data.
-Keep it simple, call it data.
+Keep it simple, call it `data`.
 For Pattern Lab to compile properly, our global json file must be named: `_data.json`
 
 In that file, we're going to need a JSON object with a name of `btnText` and a value that says `Add to cart`
 
-Don't forget to space it properly!
+That looks like this:
+`
+{
+  "btnText": "Add to cart" 
+}
+`
 
 For more info about JSON syntax, check `http://www.w3schools.com/json/json_syntax.asp`
