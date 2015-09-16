@@ -42,7 +42,18 @@ function checkFile() {
       return console.log(err);
     }
     else {
-      console.log(data.trim());
+      if (data.indexOf('<div>') > -1) {
+        console.log('There\'s wrapper divs!');
+      }
+      if (data.indexOf('{{> organisms-header }}') > -1) {
+        console.log('Header partial found!');
+      }
+      if (data.indexOf('{{> organisms-product-grid }}') > -1) {
+        console.log('Product grid partial exists!');
+      }
+      if (data.indexOf('{{> organisms-footer }}') > -1) {
+        console.log('Footer partial is present!');
+      }
     }
   });
 }

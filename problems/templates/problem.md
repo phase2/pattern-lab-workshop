@@ -11,14 +11,19 @@ image size, etc) rather than the actual content.
 
 ---
 
-Because this is just an example lesson, 
-our template will consist of `3 product grids inside of a div`. 
-Sound familiar?
-Normally, templates would probably also include header & footer organisms
-along with anything else our page would need to well, be a page. 
-Like a navbar molecule. Think of the possibilities!
+This lesson is going to have a few more steps than the previous few.
 
-I know I'm sounding like a broken record, but...
-Don't forget to make a new folder for your templates & remember the naming conventions!
+First, we're going to make a few empty organisms, to really show how templates are structured.
+We'll need a header and a footer organism. Don't worry about content in these files, 
+just call them `02-header.mustache` and `03-footer.mustache` and be sure to save them 
+INSIDE the organisms folder!
 
-Here's a freebie: Name your template `01-products.mustache`
+Next, make a new folder for your templates: `templates`
+
+Now, name your template `01-products.mustache`
+
+This template is going to need a few things:
+  A partial for the header: `{{> organisms-header }}`
+  A partial for the product grid: `{{> organisms-product-grid }}`
+  A partial for the footer: `{{> organisms-footer }}`
+  Wrapper divs around each partial.

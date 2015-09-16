@@ -17,8 +17,12 @@ influencing how the underlying molecules, organisms, and templates are construct
 
 Pages are probably the simplest files to set up, at least from the mustache perspective.
 
-All a page file requires is a partial linking to the template that you want to use.
+All a page file requires is a partial linking to the template that you want to use. A wrapper div isn't required.
 
-So you know the drill... make a directory for your pages and a file with the template partial.
+So you know the drill... make a directory for your pages and a file containing the template partial.
 
-Don't forget the naming convention!
+Folder: `pages`
+Filename: `01-products.mustache`
+Partial: `{{> templates-products }}`
+
+Seems simple, but the magic happens when JSON is introduced. We'll explain more next lesson.

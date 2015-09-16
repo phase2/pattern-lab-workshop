@@ -1,5 +1,9 @@
 <div>
-  {{> organisms-01-product-grid }}
-  {{> organisms-01-product-grid }}
-  {{> organisms-01-product-grid }}
+  {{> organisms-header }}
+</div>
+<div>
+  {{> organisms-product-grid }}
+</div>
+<div>
+  {{> organisms-footer }}
 </div>
