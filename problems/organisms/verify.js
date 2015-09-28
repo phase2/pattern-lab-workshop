@@ -43,16 +43,21 @@ function checkFile() {
     }
     else {
       if (data.indexOf('<div>') > -1) {
-        console.log('there\'s a div!');
+        console.log('There\'s a div!');
       }
       if (data.indexOf('{{> molecules-item }}') > -1) {
+        var first = (data.indexOf('{{> molecules-item }}'));
         console.log('One item molecule!');
       }
-      if (data.indexOf('{{> molecules-item }}') > -1) {
+      if (data.indexOf('{{> molecules-item }}', first) > -1) {
+        var second = (data.indexOf('{{> molecules-item }}', first));
         console.log('Two item molecules!');
       }
-      if (data.indexOf('{{> molecules-item }}') > -1) {
+      if (data.indexOf('{{> molecules-item }}', second) > -1) {
         console.log('Three item molecules!');
+      }
+      if (data.indexOf('</div>') > -1) {
+        console.log('Div is closed!');
       }
     }
   });

@@ -21,3 +21,7 @@ Create a new folder for your organisms to live in: `organisms`
 Create a file called: `01-product-grid.mustache`
 
 This organism needs a wrapper div and 3 mustache partials, all referring to the item molecule we previously created.
+
+**Hint:** The partial looks like this: `{{> molecules-item }}`
+
+Be sure the close the div after the partials!
