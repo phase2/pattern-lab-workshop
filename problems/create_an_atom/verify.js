@@ -42,7 +42,12 @@ function checkFile() {
       return console.log(err);
     }
     else {
-      console.log(data.trim());
+      if (data.indexOf('<btn>') > -1 || data.indexOf('<button>') > -1) {
+        console.log('There\'s a button!');
+      }
+      if (data.indexOf('{{ btnText }}') > -1) {
+        console.log('Mustache partial present!');
+      }
     }
   });
 }

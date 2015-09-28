@@ -15,6 +15,8 @@ This atom will be named `02-tutorial-image.mustache`
 
 Make sure to place it in the atoms folder that you created last lesson.
 
-Give it a height and width of 200px. 
+All this atom needs is an image tag with some attributes.
 
-The img src isn't important for the purposes of this lesson, so just set it to `/`
+Give it a `height` and `width` of `200px`. 
+
+We'll be using the img src later, for now set it to: `{{ img.square }}`
