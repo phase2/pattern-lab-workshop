@@ -42,7 +42,12 @@ function checkFile() {
       return console.log(err);
     }
     else {
-      console.log(data.trim());
+      if (data.indexOf('btnText') > -1) {
+        console.log('Key of btnText!');
+      }
+      if (data.indexOf('Add to cart') > -1) {
+        console.log('Value of \'Add to cart!\'');
+      }
     }
   });
 }
