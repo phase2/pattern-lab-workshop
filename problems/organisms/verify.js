@@ -50,10 +50,10 @@ function checkFile() {
         console.log('One item molecule!');
       }
       if (data.indexOf('{{> molecules-item }}', first) > -1) {
-        var second = (data.indexOf('{{> molecules-item }}', first));
+        var second = (data.indexOf('{{> molecules-item }}', first+15));
         console.log('Two item molecules!');
       }
-      if (data.indexOf('{{> molecules-item }}', second) > -1) {
+      if (data.indexOf('{{> molecules-item }}', second+15) > -1) {
         console.log('Three item molecules!');
       }
       if (data.indexOf('</div>') > -1) {
