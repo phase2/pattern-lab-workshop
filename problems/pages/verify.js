@@ -42,7 +42,7 @@ function checkFile() {
       return console.log(err);
     }
     else {
-      console.log(data.trim());
+      console.log("Template partial is present!");
     }
   });
 }

@@ -1,2 +1,2 @@
 console.log("File in pages folder!");
-console.log('{{> templates-products }}');
+console.log('Template partial is present!');
