@@ -1,4 +1,3 @@
 console.log("File in pages folder!");
-console.log('{');
-console.log('  "btnText": "Buy me!"');
-console.log('}');
+console.log('Key of btnText!');
+console.log('Value of \'Buy me!\'');
