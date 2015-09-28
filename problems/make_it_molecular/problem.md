@@ -8,18 +8,23 @@ and encourages creating reusable interface patterns.
 
 For the purposes of this lesson, we will be creating an item molecule.
 This molecule will consist of a div that contains two mustache partials, 
-one for our image and our button. 
+one for our image and one for our button. 
 
 First, make a new folder for your molecules to live in. Call it `molecules`
 
 We're making an item molecule, so make a new file in that folder called `01-item.mustache`
 
-A mustache partial looks like this: `{{> thing }}`
-They can be very explicit: `{{> atoms-01-tutorial-button }}` 
-Or more general: `{{> atoms-image }}`
+In that file, make a `<div>` tag.
 
-The magic of mustache partials lies in the `>` syntax, which tells mustache to look for that file.
+Next, include the mustache partials.
 
-For more info on mustache syntax, please check: `http://mustache.github.io/mustache.5.html`
+The image mustache partial looks like this: `{{> atoms-image }}`
+The button mustache partial looks like this: `{{> atoms-button }}`
 
-For this lesson, the more general syntax is fine.
+Be sure to close the `<div>` tag afterwards.
+
+
+For more info on how Pattern Lab works its magic with mustache: 
+  `http://patternlab.io/docs/pattern-including.html`
+For more info on mustache syntax in general: 
+  `http://mustache.github.io/mustache.5.html`
