@@ -45,11 +45,11 @@ function checkFile() {
       if ((data.indexOf('btn') > -1) || (data.indexOf('button') > -1)) {
         console.log("Styling the button!");
       }
-      if (data.indexOf('color: red') > -1) {
-        console.log("The color is red!");
+      if (data.indexOf('color:') > -1) {
+        console.log("The button has color!");
       }
-      if (data.indexOf('text-align: center') > -1) {
-        console.log("The text is center-aligned!");
+      if (data.indexOf('text-align: center;') > -1) {
+        console.log("The text looks nice!");
       }
     }
   });

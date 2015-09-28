@@ -1,4 +1,4 @@
 console.log("File in atoms folder!");
 console.log("Styling the button!");
-console.log("The color is red!");
-console.log("The text is center-aligned!");
+console.log("The button has color!");
+console.log("The text looks nice!");
