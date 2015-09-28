@@ -4,12 +4,41 @@ var exec = require('child_process').exec;
 var fs = require('fs');
 var path = require('path');
 var filename = "01-products.mustache";
+var header = "02-header.mustache";
+var footer = "03-footer.mustache";
 
 //check the directory exists
 //check the file exists
 //verify the contents of the file
 
-findFile();
+findOrganisms();
+
+function findOrganisms() {
+  if (process.cwd().match("organisms")) {
+    check(process.cwd())
+  } else {
+    check(path.join(process.cwd(), "/organisms/"))
+  }
+
+  function check(userspath) {
+    fs.readdir(userspath, function(err, files) {
+      if (err) {
+        return console.log(err);
+      }
+      var allFiles = files.join();
+      if (allFiles.match(header)) {
+        console.log("Header file in organisms folder!");
+      }
+      if (allFiles.match(footer)) {
+        console.log("Footer file in organisms folder!");
+      }
+      else {
+        console.log("File NOT in organisms folder!");
+      }
+    })
+    findFile();
+  }
+}
 
 function findFile() {
   if (process.cwd().match("templates")) {
@@ -53,6 +82,9 @@ function checkFile() {
       }
       if (data.indexOf('{{> organisms-footer }}') > -1) {
         console.log('Footer partial is present!');
+      }
+      if (data.indexOf('</div>') > -1) {
+        console.log('The div is closed!');
       }
     }
   });

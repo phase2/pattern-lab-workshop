@@ -14,13 +14,13 @@ image size, etc) rather than the actual content.
 This lesson is going to have a few more steps than the previous few.
 
 First, we're going to make a few empty organisms, to really show how templates are structured.
-We'll need a header and a footer organism. Don't worry about content in these files, 
-just call them `02-header.mustache` and `03-footer.mustache` and be sure to save them 
-INSIDE the organisms folder!
+We'll need a header and a footer organism. Don't worry about the content in these files, 
+just name them `02-header.mustache` and `03-footer.mustache`. 
+Be sure to save them inside the `ORGANISMS` folder!
 
-Next, make a new folder for your templates: `templates`
+Now, make a new folder for your templates: `templates`
 
-Now, name your template `01-products.mustache`
+Next, name your template `01-products.mustache`
 
 This template is going to need a few things:
   A partial for the header: `{{> organisms-header }}`
