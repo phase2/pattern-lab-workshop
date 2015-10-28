@@ -6,13 +6,11 @@ This workshopper aims to explain the concepts behind [Pattern Lab](http://patter
 Pattern Lab is wicked cool and you should use it! 
 
 ## Installation
-This will change once it's published to npm.
+Once published to npmjs.org, installation will most likely be: `npm install -g pattern-lab-workshop`
 
-Once that happens installation will probably be `npm install -g pattern-lab-workshop`
+### But until then:
 
-But until then:
-
-git clone the repo
+`git clone https://github.com/tjheffner/pattern-lab-workshop`
 
 Inside that folder type:
 
@@ -22,7 +20,15 @@ Inside that folder type:
 
 Make a new folder somewhere else to run the workshop in.
 
-cd into that folder and type `pattern-lab-workshop` in the terminal.
+cd into that new folder and type `pattern-lab-workshop` in the terminal.
+
+## Workshop Commands
+
+`pattern-lab-workshop` to open the menu
+
+`pattern-lab-workshop verify` to test your submission
+
+`pattern-lab-workshop reset` to clear all completed lessons
 
 ## API Reference
 [Pattern Lab docs](http://patternlab.io/docs/index.html)
@@ -33,14 +39,10 @@ cd into that folder and type `pattern-lab-workshop` in the terminal.
 
 [nodeschool](https://nodeschool.io)
 
-## Tests
-
-`pattern-lab-workshop` to open the menu
-
-`pattern-lab-workshop verify` to test your submission
-
 ## Contributors
+
+[tjheffner](http://github.com/tjheffner)
 
 ## License
 
-A short snippet describing the license (MIT, Apache, etc.)
+MIT
