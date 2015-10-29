@@ -1,5 +1,6 @@
 # Pattern Lab Workshopper
-![NPM](https://nodei.co/npm/pattern-lab-workshop.png?downloads=true)](https://nodei.co/npm/pattern-lab-workshop/)
+
+[![NPM](https://nodei.co/npm/pattern-lab-workshop.png)](https://nodei.co/npm/pattern-lab-workshop/)
 
 ![terminal menu](https://github.com/phase2/pattern-lab-workshop/blob/master/assets/terminal-menu.png)
 
