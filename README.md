@@ -3,20 +3,10 @@
 ![terminal menu](assets/terminal-menu.png)
 
 This workshopper aims to explain the concepts behind [Pattern Lab](http://patternlab.io/docs/index.html).
-Pattern Lab is wicked cool and you should use it! 
+Pattern Lab is wicked cool and you should use it!
 
 ## Installation
-Once published to npmjs.org, installation will most likely be: `npm install -g pattern-lab-workshop`
-
-### But until then:
-
-`git clone https://github.com/tjheffner/pattern-lab-workshop`
-
-Inside that folder type:
-
-`npm install` 
-
-`npm link` 
+`npm install -g pattern-lab-workshop`
 
 Make a new folder somewhere else to run the workshop in.
 
@@ -42,6 +32,7 @@ cd into that new folder and type `pattern-lab-workshop` in the terminal.
 ## Contributors
 
 [tjheffner](http://github.com/tjheffner)
+[robbiethegeek](http://github.com/robbiethegeek)
 
 ## License
 
