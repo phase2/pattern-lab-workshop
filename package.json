@@ -1,10 +1,10 @@
 {
   "name": "pattern-lab-workshop",
   "description": "Self guided workshop for learning the basics of Pattern Lab.",
-  "version": "1.1.0",
+  "version": "1.0.1",
   "repository": {
     "type": "git",
-    "url": "git://github.com:phase2/pattern-lab-workshop.git"
+    "url": "https://github.com/phase2/pattern-lab-workshop"
   },
   "license": "BSD-3-Clause",
   "bin": "./pattern-lab.js",

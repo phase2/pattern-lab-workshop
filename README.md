@@ -1,5 +1,5 @@
 # Pattern Lab Workshopper
-
+[![NPM](https://nodei.co/npm/pattern-lab-workshop.png?downloads=true)](https://nodei.co/npm/pattern-lab-workshop/)
 ![terminal menu](https://github.com/phase2/pattern-lab-workshop/blob/master/assets/terminal-menu.png)
 
 This workshopper aims to explain the concepts behind [Pattern Lab](http://patternlab.io/docs/index.html).
