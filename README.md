@@ -1,6 +1,6 @@
 # Pattern Lab Workshopper
 
-![terminal menu](assets/terminal-menu.png)
+![terminal menu](https://github.com/phase2/pattern-lab-workshop/blob/master/assets/terminal-menu.png)
 
 This workshopper aims to explain the concepts behind [Pattern Lab](http://patternlab.io/docs/index.html).
 Pattern Lab is wicked cool and you should use it!
