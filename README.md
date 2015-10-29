@@ -2,7 +2,7 @@
 
 [![NPM](https://nodei.co/npm/pattern-lab-workshop.png)](https://nodei.co/npm/pattern-lab-workshop/)
 
-![terminal menu](https://github.com/phase2/pattern-lab-workshop/blob/master/assets/terminal-menu.png)
+![terminal menu](https://raw.githubusercontent.com/phase2/pattern-lab-workshop/master/assets/terminal-menu.png)
 
 This workshopper aims to explain the concepts behind [Pattern Lab](http://patternlab.io/docs/index.html).
 Pattern Lab is wicked cool and you should use it!
