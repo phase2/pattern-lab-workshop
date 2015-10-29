@@ -1,31 +1,48 @@
-## Synopsis
+# Pattern Lab Workshopper
 
-This is the Pattern Lab workshopper module
+![terminal menu](assets/terminal-menu.png)
 
-## Code Example
-
-Show what the library does as concisely as possible, developers should be able to figure out **how** your project solves their problem by looking at the code example. Make sure the API you are showing off is obvious, and that your code is short and concise.
-
-## Motivation
-
-A short description of the motivation behind the creation and maintenance of the project. This should explain **why** the project exists.
+This workshopper aims to explain the concepts behind [Pattern Lab](http://patternlab.io/docs/index.html).
+Pattern Lab is wicked cool and you should use it! 
 
 ## Installation
+Once published to npmjs.org, installation will most likely be: `npm install -g pattern-lab-workshop`
 
-Provide code examples and explanations of how to get the project.
+### But until then:
+
+`git clone https://github.com/tjheffner/pattern-lab-workshop`
+
+Inside that folder type:
+
+`npm install` 
+
+`npm link` 
+
+Make a new folder somewhere else to run the workshop in.
+
+cd into that new folder and type `pattern-lab-workshop` in the terminal.
+
+## Workshop Commands
+
+`pattern-lab-workshop` to open the menu
+
+`pattern-lab-workshop verify` to test your submission
+
+`pattern-lab-workshop reset` to clear all completed lessons
 
 ## API Reference
+[Pattern Lab docs](http://patternlab.io/docs/index.html)
 
-Depending on the size of the project, if it is small and simple enough the reference docs can be added to the README. For medium size to larger projects it is important to at least provide a link to where the API reference docs live.
+[Mustache docs](http://mustache.github.io/mustache.5.html)
 
-## Tests
+[git-it](https://github.com/jlord/git-it) (the workshopper that this was based off of)
 
-Describe and show how to run the tests with code examples.
+[nodeschool](https://nodeschool.io)
 
 ## Contributors
 
-Let people know how they can dive into the project, include important links to things like issue trackers, irc, twitter accounts if applicable.
+[tjheffner](http://github.com/tjheffner)
 
 ## License
 
-A short snippet describing the license (MIT, Apache, etc.)
+MIT
