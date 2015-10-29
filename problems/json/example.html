@@ -1,0 +1,3 @@
+{
+  "btnText": "Add to cart"
+}
