@@ -3,7 +3,7 @@
 var exec = require('child_process').exec;
 var fs = require('fs');
 var path = require('path');
-var filename = "01-tutorial-button.scss";
+var filename = "_01-tutorial-button.scss";
 
 //check the directory exists
 //check the file exists
